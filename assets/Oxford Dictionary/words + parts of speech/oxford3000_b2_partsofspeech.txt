@@ -1,0 +1,731 @@
+abandon v.
+abroad adv.
+absolute adj.
+acceptable adj.
+accompany v.
+account v.
+accurate adj.
+accuse v.
+acknowledge v.
+acquire v.
+actual adj.
+adapt v.
+additional adj.
+address v.
+adopt v.
+advance n., v., adj.
+affair n.
+afterward adv.
+agency n.
+agenda n.
+aggressive adj.
+aid n., v.
+aircraft n.
+alarm v.
+alter v.
+amount v.
+anger n.
+angle n.
+anniversary n.
+annual adj.
+anxious adj.
+apparent adj.
+apparently adv.
+appeal n., v.
+approach n., v.
+appropriate adj.
+approval n.
+approve v.
+arise v.
+armed adj.
+arms n.
+artificial adj.
+artistic adj.
+ashamed adj.
+aside adv.
+aspect n.
+assess v.
+assessment n.
+associate v.
+associated adj.
+association n.
+assume v.
+attempt n., v.
+attorney n.
+back v.
+bacteria n.
+bar v.
+barrier n.
+basically adv.
+battle v.
+bear (deal with) v.
+beat n.
+beg v.
+being n.
+bent adj.
+bet v., n.
+beyond prep., adv.
+bill v.
+bitter adj.
+blame v., n.
+blind adj.
+bond n.
+border v.
+breast n.
+brief adj.
+broad adj.
+broadcast v., n.
+budget n.
+bullet n.
+bunch n.
+burn n.
+bush n.
+but prep.
+calculate v.
+cancel v.
+cancer n.
+capable adj.
+capacity n.
+capture v., n.
+cast n., v.
+catch n.
+chain v.
+chair v.
+chairman n.
+challenge v.
+characteristic n., adj.
+chart v.
+chief adj., n.
+circumstance n.
+cite v.
+citizen n.
+civil adj.
+classic adj., n.
+close
+1 n.
+closely adv.
+collapse v., n.
+combination n.
+comfort n., v.
+command n., v.
+commission n., v.
+commitment n.
+committee n.
+commonly adv.
+complex n.
+complicated adj.
+component n.
+concentration n.
+concept n.
+concern n., v.
+concerned adj.
+conduct v., n.
+confidence n.
+conflict n., v.
+confusing adj.
+congress n.
+conscious adj.
+conservative adj., n.
+consideration n.
+consistent adj.
+constant adj.
+constantly adv.
+construct v.
+construction n.
+contemporary adj.
+contest n., v.
+contract n., v.
+contribute v.
+contribution n.
+convert v.
+convinced adj.
+core n., adj.
+corporate adj.
+council n.
+county n.
+courage n.
+crash n., v.
+creation n.
+creature n.
+credit v.
+crew n.
+crisis n.
+criterion n.
+critic n.
+critical adj.
+criticism n.
+criticize v.
+crop n.
+crucial adj.
+cry n.
+cure v., n.
+current n.
+curve n., v.
+curved adj.
+date v.
+debate n., v.
+debt n.
+decent adj.
+declare v.
+decline v., n.
+decorate v.
+decoration n.
+decrease v., n.
+deeply adv.
+defeat v., n.
+defend v.
+defense n.
+delay v., n.
+deliberate adj.
+deliberately adv.
+delivery n.
+demand n., v.
+demonstrate v.
+deny v.
+depressed adj.
+depressing adj.
+depth n.
+desert v.
+deserve v.
+desire n., v.
+desperate adj.
+detail v.
+detailed adj.
+detect v.
+dig v.
+discipline n.
+discount v.
+dishonest adj.
+disk n.
+dismiss v.
+display v., n.
+distribute v.
+distribution n.
+divide n.
+division n.
+document v.
+domestic adj.
+dominate v.
+downward adj., adv.
+dozen n., det.
+draft n., v.
+drag v.
+dramatic adj.
+edit v.
+edition n.
+efficient adj.
+elderly adj.
+elect v.
+elsewhere adv.
+emerge v.
+emotional adj.
+emphasis n.
+emphasize v.
+enable v.
+encounter v., n.
+engage v.
+enhance v.
+ensure v.
+enthusiasm n.
+enthusiastic adj.
+entire adj.
+entirely adv.
+equal n.
+establish v.
+estate n.
+estimate v., n.
+ethical adj.
+evaluate v.
+even adj.
+evil adj., n.
+examination n.
+excuse n., v.
+executive n., adj.
+exhibit v., n.
+existence n.
+exit v
+expectation n.
+expense n.
+exploration n.
+expose v.
+extend v.
+extent n.
+external adj.
+extraordinary adj.
+extreme n.
+facility n.
+failure n.
+faith n.
+fault n.
+favor v.
+feather n.
+fee n.
+feed n.
+feedback n.
+feel n.
+fellow adj.
+figure v.
+file v.
+finance n., v.
+finding n.
+firm n.
+fix n.
+flame n.
+flash n., v.
+flexible adj.
+float v.
+fold n.
+folding adj.
+following prep.
+forgive v.
+former adj.
+fortune n.
+forward adj.
+found v.
+free v.
+freedom n.
+frequency n.
+fuel v.
+fully adv.
+function v.
+fund n., v.
+fundamental adj.
+funding n.
+furthermore adv.
+gain v., n.
+gang n.
+generate v.
+genre n.
+goods n.
+govern v.
+governor n.
+grab v.
+grade v.
+gradually adv.
+grand adj.
+grant v., n.
+guarantee v., n.
+handle v., n.
+harm n., v.
+harmful adj.
+hearing n.
+heaven n.
+heel n.
+hell n.
+hesitate v.
+high n.
+hire n.
+hold n.
+hollow adj.
+holy adj.
+honor n., v.
+host v.
+house v.
+household n.
+housing n.
+humor n.
+humorous adj.
+hunt n.
+hunting n.
+hurt n.
+ideal n.
+illustrate v.
+illustration n.
+imagination n.
+impatient adj.
+imply v.
+impose v.
+impress v.
+impressed adj.
+inch n.
+incident n.
+income n.
+increasingly adv.
+industrial adj.
+infection n.
+inform v.
+initial adj.
+initially adv.
+initiative n.
+inner adj.
+inquiry n.
+insight n.
+insist v.
+inspire v.
+install v.
+instance n.
+institute n.
+institution n.
+insurance n.
+intended adj.
+intense adj.
+internal adj.
+interpret v.
+interrupt v.
+investigation n.
+investment n.
+issue v.
+joy n.
+judgment n.
+junior adj.
+justice n.
+justify v.
+labor n.
+landscape n.
+largely adv.
+latest n.
+launch v., n.
+leadership n.
+league n.
+lean v.
+leave n.
+level v.
+license n.
+limited adj.
+line v.
+lively adj.
+load n., v.
+loan n.
+logical adj.
+long-term adj., adv.
+loose adj.
+lord n.
+low n.
+lower v.
+lung n.
+maintain v.
+major n.
+majority n.
+make n.
+map v.
+mass n., adj.
+massive adj.
+master n., v.
+matching adj.
+material adj.
+maximum adj., n.
+means n.
+measurement n.
+medium n.
+melt v.
+military adj., n.
+mineral n.
+minimum adj., n.
+minister n.
+minor adj.
+minority n.
+mission n.
+mistake v.
+mixed adj.
+model v.
+modify v.
+monitor n., v.
+moral adj., n.
+motor n., adj.
+mount v.
+multiple adj.
+multiply v.
+mysterious adj.
+narrow v.
+national n.
+negative n.
+nerve n.
+nevertheless adv.
+nightmare n.
+notion n.
+numerous adj.
+obey v.
+object v.
+objective n., adj.
+obligation n.
+observation n.
+observe v.
+obtain v.
+occasionally adv.
+offend v.
+offense n.
+offensive adj.
+official n.
+opening n.
+operate v.
+opponent n.
+oppose v.
+opposed adj.
+opposition n.
+organ n.
+origin n.
+otherwise adv.
+outcome n.
+outer adj.
+outline n., v.
+overall adj., adv.
+owe v.
+pace n., v.
+package v.
+panel n.
+participant n.
+partly adv.
+passage n.
+patient adj.
+permanent adj.
+permit v., n.
+perspective n.
+phase n.
+phenomenon n.
+philosophy n.
+pick n.
+picture v.
+pile n., v.
+pitch n.
+plain adj.
+plot v.
+plus1 adj., n., conj.
+pointed adj.
+popularity n.
+pose v.
+position v.
+positive n.
+possess v.
+potential adj., n.
+power v.
+praise n., v.
+pregnant adj.
+preparation n.
+presence n.
+preserve v.
+price v.
+prime adj.
+principal adj.
+principle n.
+print n.
+priority n.
+privacy n.
+procedure n.
+process v.
+produce n.
+professional n.
+progress v.
+project v.
+proof n.
+proposal n.
+propose v.
+prospect n.
+protection n.
+psychologist n.
+psychology n.
+publication n.
+purchase n., v.
+pure adj.
+pursue v.
+range v.
+rank n., v.
+rapid adj.
+rapidly adv.
+rate v.
+raw adj.
+reach n.
+realistic adj.
+reasonable adj.
+recall v.
+recover v.
+reduction n.
+regard v., n.
+regional adj.
+register v., n.
+regret v., n.
+regulation n.
+relatively adv.
+relevant adj.
+relief n.
+rely v.
+remark n., v.
+representative n., adj.
+reputation n.
+requirement n.
+rescue v., n.
+reserve n., v.
+resident n., adj.
+resist v.
+resolve v.
+resort n.
+retain v.
+reveal v.
+revolution n.
+reward n., v.
+rhythm n.
+rid v.
+rise n.
+root n.
+round n.
+routine adj.
+rub v.
+rubber n., adj.
+rural adj.
+rush v., n.
+sample v.
+satellite n.
+satisfied adj.
+satisfy v.
+saving n.
+scale n.
+schedule v.
+scream v., n.
+screen v.
+seat v.
+sector n.
+secure v., adj.
+seek v.
+select v.
+selection n.
+self n.
+senate n.
+senator n.
+senior adj.
+sense v.
+sensitive adj.
+sentence v.
+sequence n.
+session n.
+settle v.
+severe adj.
+shade n.
+shadow n.
+shall modal v.
+shallow adj.
+shame n.
+shape v.
+shelter n., v.
+shift v.
+ship v.
+shock n., v.
+shocked adj.
+shooting n.
+shot n.
+significant adj.
+significantly adv.
+silence n.
+silk n.
+sincere adj.
+slide v., n.
+slight adj.
+slip v.
+slope n., v.
+solar adj.
+somewhat adv.
+soul n.
+specialist n., adj.
+species n.
+speed v.
+spiritual adj.
+split v., n.
+sponsor v., n.
+spot v.
+spread n.
+stable adj.
+stage v.
+stand n.
+stare v.
+status n.
+steady adj.
+steel n.
+steep adj.
+step v.
+sticky adj.
+stiff adj.
+stock n.
+stream n.
+stretch v., n.
+strict adj.
+strike v., n.
+structure v.
+struggle v., n.
+stuff v.
+subject adj.
+submit v.
+sum n., v.
+surgery n.
+surround v.
+surrounding adj.
+survey v.
+suspect v., n.
+swear v.
+sweep v.
+switch n.
+sympathy n.
+tale n.
+tank n.
+target v.
+tear1 v., n.
+tear2 n.
+temporary adj.
+term v.
+therapy n.
+threat n.
+threaten v.
+thus adv.
+time v.
+title v.
+tone n.
+tough adj.
+track v.
+transfer v., n.
+transform v.
+transition n.
+trial n.
+trip v.
+tropical adj.
+trouble v.
+truly adv.
+trust n., v.
+try n.
+tune n.
+tunnel n.
+ultimately adv.
+unconscious adj.
+unexpected adj.
+unique adj.
+universe n.
+unknown adj.
+upper adj.
+upward adv.
+urban adj.
+urge v.
+value v.
+van n.
+vary v.
+vast adj.
+venue n.
+very adj.
+via prep.
+victory n.
+violence n.
+virtual adj.
+vision n.
+visual adj.
+vital adj.
+vitamin n.
+volume n.
+wage n.
+way adv.
+weakness n.
+wealth n.
+wealthy adj.
+whereas conj.
+wherever conj.
+whisper v., n.
+whom pron.
+widely adv.
+wildlife n.
+willing adj.
+wind2 v.
+wire n.
+wise adj.
+witness n., v.
+worse n.
+worst n.
+worth n.
+wound n., v.
+wrap v.
+wrong n.
+yet conj.
+zone n.
