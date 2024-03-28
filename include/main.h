@@ -30,6 +30,8 @@ short int output_boolean[51]; // the boolean values for each guessing spot (hand
 char output_display[51]; // the underscores that will be dynamically updated as the user guesses correctly
 
 const char *stages[7] = {FRESH, FIRST, SECOND, THIRD, FOURTH, FIFTH, SIXTH};
+const char alphabet[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}; // constant alphabet source
+char letterBank[26]; // dynamically display which letters have been used and which are available
 
 typedef enum difficulty {
     EASY, // 3000_a1, 3000_a2
@@ -47,6 +49,10 @@ void checkOS() {
         printf("Sorry, this can't run on Windows...\n");
         exit(EXIT_FAILURE);
     #endif
+}
+
+void resetBank(char letterBank[]) {
+
 }
 
 void printHangman(int incorrect_count);

@@ -8,9 +8,9 @@ IMPLEMENTED
   7. option to continue playing after death
 
 IN DEVELOPEMENT
-  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY
+  1. show the alphabet and cross off ones already guessed
+  2. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY
 
 PLANNED
   1. 2 player mode (user inputs secret word)
   2. make difficulty more meaningful -- have shorter words be "easier"?
-  3. show the alphabet and cross off ones already guessed
