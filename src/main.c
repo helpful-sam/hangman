@@ -190,7 +190,7 @@ int main() {
     // ask user for difficulty
     difficulty current_difficulty = pickDifficulty();
     
-    do {
+    while(1) {
         // generate word and print hangman
         clear();
         word = pickWord(current_difficulty);
@@ -256,8 +256,7 @@ int main() {
                 continue;
             }
         }
-
-    } while(1);
+    }
 
     return 0; // exit program with no error
 }
