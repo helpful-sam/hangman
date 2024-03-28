@@ -238,6 +238,7 @@ int main() {
 
             if (toupper(command[0]) == 'Y') {
                 incorrect_count = 0;
+                resetBank();
                 difficulty current_difficulty = pickDifficulty();
                 break;
 
