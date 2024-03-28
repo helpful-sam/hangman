@@ -34,7 +34,7 @@ difficulty pickDifficulty() {
 
         if (strcasecmp(difficulty_input, "easy\n") == 0) { // \n needed because fgets handles shorter inputs by ending with \n then \0
             return EASY;
-        } else if (strcasecmp(difficulty_input, "normal\n") == 0) { // \n not being here is not a mistake!
+        } else if (strcasecmp(difficulty_input, "normal\n") == 0) { // NOTE: having a buffer size limit of 7 and not having an \n here caused the 'e' bug... reason?
             return NORMAL;
         } else if (strcasecmp(difficulty_input, "hard\n") == 0) { // \n needed because fgets handles shorter inputs by ending with \n then \0
             return HARD;
