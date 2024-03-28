@@ -6,10 +6,10 @@ IMPLEMENTED
   5. input logic (guessing and appropriate hangman drawing updates)
   6. change difficulty after death
   7. option to continue playing after death
+  8. show the alphabet and cross off ones already guessed
 
 IN DEVELOPEMENT
-  1. show the alphabet and cross off ones already guessed
-  2. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY
+  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY
 
 PLANNED
   1. 2 player mode (user inputs secret word)

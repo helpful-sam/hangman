@@ -60,7 +60,7 @@ char * pickWord(difficulty current_difficulty) {
         return randomWord;
     }
 
-    // NORMAL
+    // NORMAL -- has an 'e' glitch, probably originated from here
     if (current_difficulty == NORMAL && randomDictionary == 0) { // b_3000_1 (387 elements)
         randomWord = b_3000_1[rand() % 387];
         return randomWord;
@@ -97,6 +97,10 @@ void promptHandler(char *word) {
         // print display based on booleans
         clear();
         printHangman(incorrect_count);
+
+        // print available letters
+        printBank();
+
         printf("(%d letters)  ", wordLength);
         
         for (short i = 0; i < wordLength; i++) {
@@ -111,6 +115,10 @@ void promptHandler(char *word) {
 
         // input to capture guess char, capped to only capture first char (+ null)
         fgets(guess, 2, stdin);
+
+        // UPDATE BANK: replace guess to empty space in the letterBank
+        letterIndex = (int)toupper(guess[0]) - 65;
+        letterBank[letterIndex] = ' ';
 
         // throw out everything above buffersize of 2 (NOTE: from ChatGPT)
         // side effect: when just pressing enter with an empty string, it goes into a new line instead of submitting input
@@ -151,9 +159,28 @@ void promptHandler(char *word) {
     } // end while
 }
 
+void resetBank() {
+    for (short i = 0; i < 26; i++) {
+        letterBank[i] = alphabet[i];
+    }
+}
+
+void printBank() {
+    printf("Availalbe letters: ");
+    for (short i = 0; i < 26; i++) {
+        printf("%c", letterBank[i]);
+        printf(" ");
+    }
+    printf("\n\n");
+
+    fflush(stdout);
+}
+
 int main() {
-    checkOS(); // untested
-    srand(time(0));
+    // initializations
+    checkOS(); // untested; reject windows environment
+    srand(time(0)); // seed RNG
+    resetBank(); // refresh letter bank
 
     // ask user for difficulty
     difficulty current_difficulty = pickDifficulty();
@@ -171,10 +198,17 @@ int main() {
 
         // prompt user for guess (this function also contains guess-checking logic)
         promptHandler(word);
+        
+        // print available letters
+        printBank();
 
         // one last screen update to account for the fencepost problem
         clear();
         printHangman(incorrect_count);
+        
+        // print available letters
+        printBank();
+
         printf("(%d letters)  ", wordLength);
         for (short i = 0; i < wordLength; i++) {
             if (output_boolean[i] == 0) {

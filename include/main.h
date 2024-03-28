@@ -32,6 +32,7 @@ char output_display[51]; // the underscores that will be dynamically updated as 
 const char *stages[7] = {FRESH, FIRST, SECOND, THIRD, FOURTH, FIFTH, SIXTH};
 const char alphabet[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'}; // constant alphabet source
 char letterBank[26]; // dynamically display which letters have been used and which are available
+short int letterIndex; // index of the char based on ASCII; (int)guess - 65, since A = 65
 
 typedef enum difficulty {
     EASY, // 3000_a1, 3000_a2
@@ -51,9 +52,8 @@ void checkOS() {
     #endif
 }
 
-void resetBank(char letterBank[]) {
-
-}
+void resetBank();
+void printBank();
 
 void printHangman(int incorrect_count);
 void clear();
