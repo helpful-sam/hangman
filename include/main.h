@@ -19,7 +19,7 @@ const char *hangman = " _    _          _   _  _____ __  __          _   _   _ \
 char *word; // holds the random word chosen at the beginning of the game
 char guess[2]; // holds the 1 letter guess
 char command[2]; // command placeholder for when user wins/loses the game
-char difficulty_input[7]; // holds user's input when choosing difficulty
+char difficulty_input[8]; // holds user's input when choosing difficulty
 short int incorrect_count = 0; // tracks the number of incorrect guesses
 short int match_flag; // used to track whether guess was a hit or a miss; 0 = miss, 1 = has at least one hit
 

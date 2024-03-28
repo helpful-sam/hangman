@@ -30,11 +30,11 @@ difficulty pickDifficulty() {
     printf("Please enter a difficulty (easy, normal, hard): ");
     
     while(1) { // infinite loop until user inputs a valid difficulty setting
-        fgets(difficulty_input, 7, stdin); // read the first 6 chars (+ \0) and store to difficulty_input
+        fgets(difficulty_input, 8, stdin); // read the first 6 chars (+ \0) and store to difficulty_input
 
         if (strcasecmp(difficulty_input, "easy\n") == 0) { // \n needed because fgets handles shorter inputs by ending with \n then \0
             return EASY;
-        } else if (strcasecmp(difficulty_input, "normal") == 0) { // \n not being here is not a mistake!
+        } else if (strcasecmp(difficulty_input, "normal\n") == 0) { // \n not being here is not a mistake!
             return NORMAL;
         } else if (strcasecmp(difficulty_input, "hard\n") == 0) { // \n needed because fgets handles shorter inputs by ending with \n then \0
             return HARD;

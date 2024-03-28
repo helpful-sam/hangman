@@ -1,3 +1,5 @@
+=== FEATURES ===
+
 IMPLEMENTED
   1. graphics (title and hangman ASCII)
   2. random word selection from Oxford 3000 & 5000
@@ -10,8 +12,11 @@ IMPLEMENTED
   9. do not penalize for duplicate wrong answers
 
 IN DEVELOPEMENT
-  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY 
+  1. 2 player mode (user inputs secret word)
 
 PLANNED
-  1. 2 player mode (user inputs secret word)
-  2. make difficulty more meaningful -- have shorter words be "easier"?
+  1. make difficulty more meaningful -- have shorter words be "easier"?
+
+
+=== BUGS ===
+  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY (FIXED)
