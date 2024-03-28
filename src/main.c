@@ -116,9 +116,8 @@ void promptHandler(char *word) {
         // input to capture guess char, capped to only capture first char (+ null)
         fgets(guess, 2, stdin);
 
-        // UPDATE BANK: replace guess to empty space in the letterBank
+        // calculate letter index, to be used to check for duplicates and to update the display of the letter bank
         letterIndex = (int)toupper(guess[0]) - 65;
-        letterBank[letterIndex] = ' ';
 
         // throw out everything above buffersize of 2 (NOTE: from ChatGPT)
         // side effect: when just pressing enter with an empty string, it goes into a new line instead of submitting input
@@ -131,10 +130,16 @@ void promptHandler(char *word) {
             if (output_boolean[i] == 0 && toupper(guess[0]) == word[i]) { // if the spot is unguessed and it's a match, it's a valid answer
                 output_boolean[i] = 1;
                 match_flag = 1;
-            } else if (output_boolean[i] == 1 && toupper(guess[0]) == word[i]) { // if the spot is already guessed, it's a duplicate guess; don't penalize
-                match_flag = 1;
             }
         }
+        
+        // check if the user made a duplicate guess
+        if (letterBank[letterIndex] == ' ') {
+            match_flag = 2;
+        }
+
+        // UPDATE BANK: replace guess to empty space in the letterBank
+        letterBank[letterIndex] = ' ';
 
         // if no matches, the guess was incorrect
         if (match_flag == 0 && incorrect_count <= 6) {

@@ -7,9 +7,10 @@ IMPLEMENTED
   6. change difficulty after death
   7. option to continue playing after death
   8. show the alphabet and cross off ones already guessed
+  9. do not penalize for duplicate wrong answers
 
 IN DEVELOPEMENT
-  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY
+  1. bug where first guess of 'e' is invalid ONLY IN NORMAL DIFFICULTY 
 
 PLANNED
   1. 2 player mode (user inputs secret word)
