@@ -16,6 +16,7 @@ IN DEVELOPEMENT
 
 PLANNED
   1. make difficulty more meaningful -- have shorter words be "easier"?
+  2. print the part of speech and definitions of answers
 
 
 === BUGS ===
