@@ -20,11 +20,10 @@ void printHangman(int incorrect_count) {
 }
 
 void clear() {
-    system("clear");
-    printf("%s\n\n", hangman);
+    printf("\033c%s\n\n", hangman);
 }
 
-difficulty pickDifficulty() {
+Difficulty pickDifficulty() {
 
     clear();
     printf("Please enter a difficulty (easy, normal, hard): ");
@@ -47,7 +46,8 @@ difficulty pickDifficulty() {
     }
 }
 
-char * pickWord(difficulty current_difficulty) {
+char const* pickWord(Difficulty current_difficulty) {
+    char const* randomWord;
 
     randomDictionary = rand() % 2; // pick first or second set of dictionaries since each difficulty has 2 choices
 
@@ -84,12 +84,12 @@ char * pickWord(difficulty current_difficulty) {
 
 }
 
-void promptHandler(char *word) {
+void promptHandler(char const* word) {
     // get length of current word
     wordLength = strlen(word);
 
     // initialize booleans for each spot
-    for (short i = 0; i < wordLength; i++) {
+    for (int i = 0; i < wordLength; i++) {
         output_boolean[i] = 0;
     }
 
@@ -103,7 +103,7 @@ void promptHandler(char *word) {
 
         printf("(%d letters)  ", wordLength);
         
-        for (short i = 0; i < wordLength; i++) {
+        for (int i = 0; i < wordLength; i++) {
             if (output_boolean[i] == 0) {
                 printf("_ ");
             } else if (output_boolean[i] == 1) {
@@ -114,10 +114,10 @@ void promptHandler(char *word) {
         fflush(stdout);
 
         // input to capture guess char, capped to only capture first char (+ null)
-        fgets(guess, 2, stdin);
+        char const guess = fgetc(stdin);
 
         // calculate letter index, to be used to check for duplicates and to update the display of the letter bank
-        letterIndex = (int)toupper(guess[0]) - 65;
+        letterIndex = (int)toupper(guess) - 'A';
 
         // throw out everything above buffersize of 2 (NOTE: from ChatGPT)
         // side effect: when just pressing enter with an empty string, it goes into a new line instead of submitting input
@@ -126,8 +126,8 @@ void promptHandler(char *word) {
 
         // check guess against all positions and update boolean
         match_flag = 0; // reset incorrect_flag
-        for (short i = 0; i < wordLength; i++) {
-            if (output_boolean[i] == 0 && toupper(guess[0]) == word[i]) { // if the spot is unguessed and it's a match, it's a valid answer
+        for (int i = 0; i < wordLength; i++) {
+            if (output_boolean[i] == 0 && toupper(guess) == word[i]) { // if the spot is unguessed and it's a match, it's a valid answer
                 output_boolean[i] = 1;
                 match_flag = 1;
             }
@@ -148,7 +148,7 @@ void promptHandler(char *word) {
 
         // check the user has guessed all words
         match_flag = 0; // reset incorrect_flag
-        for (short i = 0; i < wordLength; i++) {
+        for (int i = 0; i < wordLength; i++) {
             if (output_boolean[i] == 1) { // 
                 match_flag++;
             }
@@ -165,14 +165,14 @@ void promptHandler(char *word) {
 }
 
 void resetBank() {
-    for (short i = 0; i < 26; i++) {
-        letterBank[i] = alphabet[i];
+    for (char i = 0; i < 26; i++) {
+        letterBank[i] = 'A' + i;
     }
 }
 
 void printBank() {
-    printf("Availalbe letters: ");
-    for (short i = 0; i < 26; i++) {
+    printf("Available letters: ");
+    for (char i = 0; i < 26; i++) {
         printf("%c", letterBank[i]);
         printf(" ");
     }
@@ -183,12 +183,11 @@ void printBank() {
 
 int main() {
     // initializations
-    checkOS(); // untested; reject windows environment
     srand(time(0)); // seed RNG
     resetBank(); // refresh letter bank
 
     // ask user for difficulty
-    difficulty current_difficulty = pickDifficulty();
+    Difficulty current_difficulty = pickDifficulty();
     
     while(1) {
         // generate word and print hangman
@@ -215,7 +214,7 @@ int main() {
         printBank();
 
         printf("(%d letters)  ", wordLength);
-        for (short i = 0; i < wordLength; i++) {
+        for (int i = 0; i < wordLength; i++) {
             if (output_boolean[i] == 0) {
                 printf("_ ");
             } else if (output_boolean[i] == 1) {
@@ -244,7 +243,7 @@ int main() {
             if (toupper(command[0]) == 'Y') {
                 incorrect_count = 0;
                 resetBank();
-                difficulty current_difficulty = pickDifficulty();
+                Difficulty current_difficulty = pickDifficulty();
                 break;
 
             } else if (toupper(command[0]) == 'N') {
