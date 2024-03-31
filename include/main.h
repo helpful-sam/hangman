@@ -39,7 +39,6 @@ typedef enum Difficulty {
     HARD //5000_b2, 5000_c1
 } Difficulty;
 
-
 ///////////////////////////
 // FUNCTION DECLARATIONS //
 ///////////////////////////
